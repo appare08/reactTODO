@@ -1,1 +1,70 @@
+body {
+    font-family:sans-serif;
+}
 
+input{
+    border-radius: 16px;
+    border: none;
+    padding: 6px 16px;
+    background-color: white;
+    outline: none;
+}
+
+button{
+    border-radius: 16px;
+    border: none;
+    padding: 4px 16px;
+    background-color: whitesmoke;
+}
+
+button:hover{
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+
+.input-area{
+    background-color: aqua;
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.incomplete-area{
+    background-color: aquamarine;
+    width: 400px;
+    min-height: 200px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.complete-area{
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    min-height: 200px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color:darkslategrey;
+}
+
+.list-low{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-low button:first-child{
+    margin-right: 10px;
+}
